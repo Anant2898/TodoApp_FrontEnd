@@ -36,7 +36,7 @@ a {
   @include fill;
   @include container(900px, unset, 3rem 0);
 }
-
+ 
 .todo {
   background-color: $color2;
   border-radius: 5px;
