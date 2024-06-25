@@ -36,7 +36,7 @@ const Home = () => {
     }).then(res=>{
       setTasks(res.data.tasks)
     })
-  },[refresh])
+  },[])
   return (
     <div className='container' >
       <div className="login">
