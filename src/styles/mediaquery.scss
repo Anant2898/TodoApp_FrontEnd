@@ -1,5 +1,18 @@
 @media (max-width: 900px) {
-    .login {
-      padding: 0;
+    
+    .header{
+       padding: 0;
+       gap: 0px;
+       justify-content: space-around;
     }
+    
+    > article {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      > a {
+        @include styledText(0.4rem);
+        @include myButton(8.75rem, 0.5rem);
+      }
+    } 
   } 
