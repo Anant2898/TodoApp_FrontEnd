@@ -43,7 +43,7 @@ const Home = () => {
       <section >
               <form onSubmit={submitHandler}>
                   <input required type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder='Title' />
-                  <input required type="text" value={description} onChange={(e) => setDescription(e.target.value)} placeholder='Des cription' />
+                  <textarea required type="text" value={description} onChange={(e) => setDescription(e.target.value)} placeholder='Description' />
                   <button disabled = {loading || !isAuthenticated} type='submit'>Add Task</button>
               </form>
       </section>
